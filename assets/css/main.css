@@ -1,0 +1,95 @@
+body {
+  background-color: #F4FFE8;
+  font-family: 'Montserrat', sans-serif;
+}
+/* nav format */
+header {
+  background-color: #708090;
+  width: 100%;
+  top: 0;
+}
+.menu {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu .logo {
+  display: inline-block;
+  margin-right: 1em;
+}
+.menu .logo .name {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+.menu .btn-menu {
+  display: none;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1em;
+}
+.menu .links {
+  display: inline-block;
+  text-align: right;
+}
+.menu .links a {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1em;
+  color: #fff;
+  padding: 1em;
+}
+/* header background image format*/
+.imgBackground {
+  background-image: url(../images/bakery4.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: auto;
+}
+.title {
+  color: #fff;
+  text-align: center;
+  font-size: 4em;
+  padding: 2em 0.5em;
+}
+.weDo p, .weDo h2 {
+  padding: 0.5em;
+  color: #708090;
+}
+.weDo a {
+  padding: 0.5em;
+}
+.btnPadding {}
+
+/* products format */
+.btn {
+  background-color: #708090;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+  padding: 0.8em 1em;
+  border: none;
+  border-radius: 8px;
+  margin-left: 2%;
+}
+.products p, .products h3{
+  padding: 0.5em;
+  color: #708090;
+}
+
+/* footer format */
+.footer {
+  background-color: #708090;
+  color: #fff;
+  text-align: center;
+}
+img{
+  width: 100%;
+  height: 200px;
+}

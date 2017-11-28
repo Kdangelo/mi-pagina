@@ -1,0 +1,61 @@
+@media (min-width: 535px) and (max-width: 880px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+  header .menu {
+    flex-direction: column;
+  }
+  /* posicionar logo y boton a izq y derecha respectivamente
+  mediante flex-box */
+  header .menu .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1em;
+  }
+  header .menu .logo .btn-menu {
+    display: inline-block;
+  }
+  header .menu .links {
+    display: none;
+  }
+  .imgBackground {
+    width: 100%;
+  }
+  img{
+    width: 100%;
+    height: 300px;
+  }
+}
+@media (max-width: 534px) {
+  [class*="col-"] {
+    width: 100%;
+  }  
+  header .menu {
+    flex-direction: column;
+  }
+  header .menu .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1em;
+  }
+  header .menu .logo .btn-menu {
+    display: inline-block;
+  }
+  header .menu .links {
+    display: none;
+  }
+  .imgBackground {
+    width: 100%;
+  }
+  .title {
+    padding: 0;
+  }
+  img{
+    width: 100%;
+    height: 300px;
+  }
+}
